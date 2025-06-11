@@ -1,0 +1,4 @@
+# --- Prerequisites ---
+
+# pip install playwright pandas nest_asyncio
+# playwright install
