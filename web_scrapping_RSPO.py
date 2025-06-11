@@ -41,7 +41,7 @@ os.makedirs(DOWNLOADS_DIR, exist_ok=True)
 DOWNLOADS_DIR_CSV = "...."
 os.makedirs(DOWNLOADS_DIR_CSV, exist_ok=True)
 
-# Automatically download all the members list as CSV from the PRISMA website
+# Automatically download all the members list as CSV from the RSPO website
 
 async def download_csv():
     async with async_playwright() as p:
